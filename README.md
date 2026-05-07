@@ -8,7 +8,6 @@ Beer/
 ├── data/               # Raw and cleaned datasets
 ├── data_cleaning/      # Notebooks for data cleaning and integration
 └── clustering/         # Notebooks for clustering algorithms
-    ├── Beer Profile Data Project(Incomplete).ipynb
     ├── Clusterability and Clustering Structure.ipynb
     ├── Section_9_algorithm_kmeans.ipynb
     └── Section_9_algorith_DBSCAN.ipynb
@@ -37,8 +36,6 @@ Beer/
 - `Clusterability and Clustering Structure.ipynb` — assessing clusterability and structure of the data
 - `Section_9_algorithm_kmeans.ipynb` — K-Means clustering algorithm
 - `Section_9_algorith_DBSCAN.ipynb` — DBSCAN clustering algorithm
-- `Beer Profile Data Project(Incomplete).ipynb` — copy of the main project report (see Section 0)
-
 ## 4. Analysis Idea
 
 First cluster beers by profile (taste, aroma), then by ratings, and finally compare the two clusterings to find connections. The **style** field in the dataset serves as a benchmark. Based on current results, KMeans with k=6 was selected as the primary clustering solution.
